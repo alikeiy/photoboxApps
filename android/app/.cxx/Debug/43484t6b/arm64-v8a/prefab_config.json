@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "prefabPath": "/Users/alikapermatasari/.gradle/caches/modules-2/files-2.1/com.google.prefab/cli/2.1.0/aa32fec809c44fa531f01dcfb739b5b3304d3050/cli-2.1.0-all.jar",
+  "packages": [
+    "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-vision-camera/android/build/intermediates/prefab_package/debug/prefab",
+    "/Users/alikapermatasari/.gradle/caches/8.14.3/transforms/eb6d09c91acf843499bdca80e0a66fd6/transformed/react-android-0.81.0-debug/prefab",
+    "/Users/alikapermatasari/.gradle/caches/8.14.3/transforms/5d0a1bdcc2c5d492e0409f1745c7c8f4/transformed/hermes-android-0.81.0-debug/prefab",
+    "/Users/alikapermatasari/.gradle/caches/8.14.3/transforms/a18451f415b73841e30da63b3d9805af/transformed/fbjni-0.7.0/prefab"
+  ]
+}
