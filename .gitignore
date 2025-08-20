@@ -1,4 +1,9 @@
+# Android build
 android/app/build/
 *.apk
+*.aab
 *.so
 *.keystore
+
+# Node modules
+node_modules/
