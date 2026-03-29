@@ -110,10 +110,18 @@ android {
 dependencies {
     // The version of react-native is set by the React Native Gradle Plugin
     implementation("com.facebook.react:react-android")
+    implementation project(':common')
 
     if (hermesEnabled.toBoolean()) {
         implementation("com.facebook.react:hermes-android")
     } else {
         implementation jscFlavor
+    }
+}
+
+android {
+    packagingOptions {
+        pickFirst 'lib/arm64-v8a/libcrypto.so'
+        pickFirst 'lib/arm64-v8a/libssl.so'
     }
 }

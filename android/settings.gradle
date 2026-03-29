@@ -3,4 +3,8 @@ plugins { id("com.facebook.react.settings") }
 extensions.configure(com.facebook.react.ReactSettingsExtension){ ex -> ex.autolinkLibrariesFromCommand() }
 rootProject.name = 'photoboxTemp'
 include ':app'
+
+include ':common'
+project(':common').projectDir = new File('serenegiant/common')
+
 includeBuild('../node_modules/@react-native/gradle-plugin')

@@ -20,39 +20,27 @@ class CameraModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
     }
 
     private fun getCurrentActivitySafe(): Activity? {
-        return reactApplicationContext.currentActivity ?: run {
-            Log.w("CameraModule", "currentActivity is null")
-            null
-        }
+        return reactApplicationContext.currentActivity
     }
 
-    private fun requestPermission(permission: String, promise: Promise) {
+    @ReactMethod
+    fun requestCameraPermission(promise: Promise) {
+        val permissions = arrayOf(Manifest.permission.CAMERA, Manifest.permission.RECORD_AUDIO)
         val activity = getCurrentActivitySafe()
         if (activity is PermissionAwareActivity) {
             val currentRequestCode = sharedRequestCode++
-            val listener = PermissionListener { requestCode: Int, permissions: Array<String>, grantResults: IntArray ->
+            val listener = PermissionListener { requestCode: Int, perms: Array<String>, grantResults: IntArray ->
                 if (requestCode == currentRequestCode) {
-                    val status = if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                        "authorized"
-                    } else {
-                        "denied"
-                    }
+                    val allGranted = grantResults.isNotEmpty() && grantResults.all { it == PackageManager.PERMISSION_GRANTED }
+                    val status = if (allGranted) "authorized" else "denied"
                     promise.resolve(status)
                     return@PermissionListener true
                 }
                 return@PermissionListener false
             }
-            activity.requestPermissions(arrayOf(permission), currentRequestCode, listener)
+            activity.requestPermissions(permissions, currentRequestCode, listener)
         } else {
-            promise.reject(
-                "NO_ACTIVITY",
-                "No PermissionAwareActivity was found! Make sure the app has launched before calling this function."
-            )
+            promise.reject("NO_ACTIVITY", "No PermissionAwareActivity found")
         }
-    }
-
-    @ReactMethod
-    fun requestCameraPermission(promise: Promise) {
-        requestPermission(Manifest.permission.CAMERA, promise)
     }
 }
