@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Canon Inc. VID 0x04A9 = 1193 decimal. EOS M10 PID 0x32A0 = 12960 -->
+    <usb-device vendor-id="1193" />
+</resources>

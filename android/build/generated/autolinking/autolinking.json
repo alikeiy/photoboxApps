@@ -1,26 +1,26 @@
 {
-  "root": "/Users/alikapermatasari/myApps/photoboxApps",
-  "reactNativePath": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native",
+  "root": "/Users/alikapermatasari/Documents/myapps/photoboxApps",
+  "reactNativePath": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native",
   "reactNativeVersion": "0.81",
   "dependencies": {
     "react-native-image-picker": {
-      "root": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-image-picker",
+      "root": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-image-picker",
       "name": "react-native-image-picker",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-image-picker/react-native-image-picker.podspec",
+          "podspecPath": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-image-picker/react-native-image-picker.podspec",
           "version": "8.2.1",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-image-picker/android",
+          "sourceDir": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-image-picker/android",
           "packageImportPath": "import com.imagepicker.ImagePickerPackage;",
           "packageInstance": "new ImagePickerPackage()",
           "buildTypes": [],
           "libraryName": "RNImagePickerSpec",
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-image-picker/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-image-picker/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -29,23 +29,23 @@
       }
     },
     "react-native-permissions": {
-      "root": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-permissions",
+      "root": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-permissions",
       "name": "react-native-permissions",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-permissions/RNPermissions.podspec",
+          "podspecPath": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-permissions/RNPermissions.podspec",
           "version": "5.4.2",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-permissions/android",
+          "sourceDir": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-permissions/android",
           "packageImportPath": "import com.zoontek.rnpermissions.RNPermissionsPackage;",
           "packageInstance": "new RNPermissionsPackage()",
           "buildTypes": [],
           "libraryName": "RNPermissionsSpec",
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-permissions/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-permissions/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -54,17 +54,17 @@
       }
     },
     "react-native-safe-area-context": {
-      "root": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-safe-area-context",
+      "root": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-safe-area-context",
       "name": "react-native-safe-area-context",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-safe-area-context/react-native-safe-area-context.podspec",
+          "podspecPath": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-safe-area-context/react-native-safe-area-context.podspec",
           "version": "5.6.1",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-safe-area-context/android",
+          "sourceDir": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-safe-area-context/android",
           "packageImportPath": "import com.th3rdwave.safeareacontext.SafeAreaContextPackage;",
           "packageInstance": "new SafeAreaContextPackage()",
           "buildTypes": [],
@@ -73,7 +73,7 @@
             "RNCSafeAreaProviderComponentDescriptor",
             "RNCSafeAreaViewComponentDescriptor"
           ],
-          "cmakeListsPath": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -82,17 +82,17 @@
       }
     },
     "react-native-screens": {
-      "root": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-screens",
+      "root": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-screens",
       "name": "react-native-screens",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-screens/RNScreens.podspec",
+          "podspecPath": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-screens/RNScreens.podspec",
           "version": "4.14.1",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-screens/android",
+          "sourceDir": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-screens/android",
           "packageImportPath": "import com.swmansion.rnscreens.RNScreensPackage;",
           "packageInstance": "new RNScreensPackage()",
           "buildTypes": [],
@@ -111,7 +111,7 @@
             "RNSModalScreenComponentDescriptor",
             "RNSBottomTabsComponentDescriptor"
           ],
-          "cmakeListsPath": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -120,47 +120,23 @@
       }
     },
     "react-native-share": {
-      "root": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-share",
+      "root": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-share",
       "name": "react-native-share",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-share/RNShare.podspec",
+          "podspecPath": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-share/RNShare.podspec",
           "version": "12.2.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-share/android",
+          "sourceDir": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-share/android",
           "packageImportPath": "import cl.json.RNSharePackage;",
           "packageInstance": "new RNSharePackage()",
           "buildTypes": [],
           "libraryName": "RNShareSpec",
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-share/android/build/generated/source/codegen/jni/CMakeLists.txt",
-          "cxxModuleCMakeListsModuleName": null,
-          "cxxModuleCMakeListsPath": null,
-          "cxxModuleHeaderName": null,
-          "isPureCxxDependency": false
-        }
-      }
-    },
-    "react-native-vision-camera": {
-      "root": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-vision-camera",
-      "name": "react-native-vision-camera",
-      "platforms": {
-        "ios": {
-          "podspecPath": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-vision-camera/VisionCamera.podspec",
-          "version": "4.7.1",
-          "configurations": [],
-          "scriptPhases": []
-        },
-        "android": {
-          "sourceDir": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-vision-camera/android",
-          "packageImportPath": "import com.mrousavy.camera.react.CameraPackage;",
-          "packageInstance": "new CameraPackage()",
-          "buildTypes": [],
-          "componentDescriptors": [],
-          "cmakeListsPath": "/Users/alikapermatasari/myApps/photoboxApps/node_modules/react-native-vision-camera/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-share/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -331,7 +307,7 @@
         {
           "name": "--path <path>",
           "description": "Path to the React Native project root.",
-          "default": "/Users/alikapermatasari/myApps/photoboxApps"
+          "default": "/Users/alikapermatasari/Documents/myapps/photoboxApps"
         },
         {
           "name": "--platform <string>",
@@ -387,8 +363,7 @@
         },
         {
           "name": "--terminal <string>",
-          "description": "Launches the Metro Bundler in a new window using the specified terminal path.",
-          "default": "vscode"
+          "description": "Launches the Metro Bundler in a new window using the specified terminal path."
         },
         {
           "name": "--binary-path <string>",
@@ -555,8 +530,7 @@
         },
         {
           "name": "--terminal <string>",
-          "description": "Launches the Metro Bundler in a new window using the specified terminal path.",
-          "default": "vscode"
+          "description": "Launches the Metro Bundler in a new window using the specified terminal path."
         },
         {
           "name": "--appId <string>",
@@ -631,7 +605,7 @@
   "assets": [],
   "project": {
     "ios": {
-      "sourceDir": "/Users/alikapermatasari/myApps/photoboxApps/ios",
+      "sourceDir": "/Users/alikapermatasari/Documents/myapps/photoboxApps/ios",
       "xcodeProject": {
         "name": "photoboxTemp.xcodeproj",
         "path": ".",
@@ -640,7 +614,7 @@
       "assets": []
     },
     "android": {
-      "sourceDir": "/Users/alikapermatasari/myApps/photoboxApps/android",
+      "sourceDir": "/Users/alikapermatasari/Documents/myapps/photoboxApps/android",
       "appName": "app",
       "packageName": "com.photoboxtemp",
       "applicationId": "com.photoboxtemp",

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "codegen_app_build",
+		"source" : "/Users/alikapermatasari/Documents/myapps/photoboxApps/android/app/build/generated/source/codegen/jni"
+	}
+}
