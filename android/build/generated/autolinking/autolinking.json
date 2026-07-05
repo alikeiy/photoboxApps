@@ -143,6 +143,25 @@
           "isPureCxxDependency": false
         }
       }
+    },
+    "react-native-uvc-camera": {
+      "root": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-uvc-camera",
+      "name": "react-native-uvc-camera",
+      "platforms": {
+        "ios": null,
+        "android": {
+          "sourceDir": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-uvc-camera/android",
+          "packageImportPath": "import org.reactnative.camera.RNCameraPackage;",
+          "packageInstance": "new RNCameraPackage()",
+          "buildTypes": [],
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/alikapermatasari/Documents/myapps/photoboxApps/node_modules/react-native-uvc-camera/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
     }
   },
   "commands": [

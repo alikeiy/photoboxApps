@@ -1,6 +1,28 @@
 pluginManagement { includeBuild("../node_modules/@react-native/gradle-plugin") }
 plugins { id("com.facebook.react.settings") }
 extensions.configure(com.facebook.react.ReactSettingsExtension){ ex -> ex.autolinkLibrariesFromCommand() }
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url 'https://raw.githubusercontent.com/saki4510t/libcommon/master/repository'
+            allowInsecureProtocol = true
+        }
+    }
+}
+
 rootProject.name = 'photoboxTemp'
 include ':app'
+
+// HDMI capture card — UVC live preview (react-native-uvc-camera)
+include ':libuvccamera'
+project(':libuvccamera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-uvc-camera/libuvccamera')
+include ':usbCameraCommon'
+project(':usbCameraCommon').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-uvc-camera/usbCameraCommon')
+include ':react-native-uvc-camera'
+project(':react-native-uvc-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-uvc-camera/android')
+
 includeBuild('../node_modules/@react-native/gradle-plugin')

@@ -1,0 +1,4 @@
+/Users/alikapermatasari/Documents/myapps/photoboxApps/android/app/.cxx/RelWithDebInfo/653i3o3q/armeabi-v7a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+/Users/alikapermatasari/Documents/myapps/photoboxApps/android/app/.cxx/RelWithDebInfo/653i3o3q/armeabi-v7a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+/Users/alikapermatasari/Documents/myapps/photoboxApps/android/app/.cxx/RelWithDebInfo/653i3o3q/armeabi-v7a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+/Users/alikapermatasari/Documents/myapps/photoboxApps/android/app/.cxx/RelWithDebInfo/653i3o3q/armeabi-v7a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir

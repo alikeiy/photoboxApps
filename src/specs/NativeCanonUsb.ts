@@ -12,8 +12,11 @@ export interface Spec extends TurboModule {
   /** Request runtime USB permission for the connected Canon device. */
   requestCameraPermission(): Promise<boolean>;
 
+  /** Request USB permission for HDMI capture card (UVC), separate from Canon. */
+  requestUvcPermission(): Promise<boolean>;
+
   /** Fire remote shutter via PTP (not implemented yet). */
   triggerShutter(): Promise<boolean>;
 }
 
-export default TurboModuleRegistry.getEnforcing<Spec>('CanonUsb');
+export default TurboModuleRegistry.get<Spec>('CanonUsb');

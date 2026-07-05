@@ -19,3 +19,11 @@ buildscript {
 }
 
 apply plugin: "com.facebook.react.rootproject"
+
+// Used by react-native-uvc-camera / libuvccamera
+ext {
+    supportLibVersion = '1.0.0'
+    commonLibVersion = '4.1.1'
+    versionCompiler = 36
+    versionTarget = 36
+}

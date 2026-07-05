@@ -44,10 +44,20 @@ android {
 
 dependencies {
     implementation("com.facebook.react:react-android")
+    implementation project(':react-native-uvc-camera')
 
     if (hermesEnabled.toBoolean()) {
         implementation("com.facebook.react:hermes-android")
     } else {
         implementation jscFlavor
+    }
+}
+
+android {
+    packagingOptions {
+        pickFirst 'lib/arm64-v8a/libcrypto.so'
+        pickFirst 'lib/arm64-v8a/libssl.so'
+        pickFirst 'lib/armeabi-v7a/libcrypto.so'
+        pickFirst 'lib/armeabi-v7a/libssl.so'
     }
 }

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Canon Inc. VID 0x04A9 = 1193 decimal. EOS M10 PID 0x32A0 = 12960 -->
+    <!-- Canon EOS M10 PTP control (USB shutter) — VID 0x04A9 = 1193 -->
     <usb-device vendor-id="1193" />
+    <!-- HDMI capture cards (UVC live preview) -->
+    <usb-device class="239" subclass="2" />
+    <usb-device class="14" />
 </resources>
