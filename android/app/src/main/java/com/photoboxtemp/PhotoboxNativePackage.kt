@@ -6,16 +6,23 @@ import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.module.model.ReactModuleInfo
 import com.facebook.react.module.model.ReactModuleInfoProvider
 
+import com.photoboxtemp.booth.PhotoBoothModule
+import com.photoboxtemp.trigger.ShutterTriggerModule
+
 /**
  * Registers Photo Booth native modules.
  *
  * - [CanonUsbModule] — TurboModule for Canon EOS M10 / USB PTP control
+ * - [ShutterTriggerModule] — overlay pin + hardware tap for Canon Camera Connect
+ * - [PhotoBoothModule] — MediaStore import and frame composite
  */
 class PhotoboxNativePackage : TurboReactPackage() {
 
     override fun getModule(name: String, reactContext: ReactApplicationContext): NativeModule? =
         when (name) {
             CanonUsbModule.NAME -> CanonUsbModule(reactContext)
+            ShutterTriggerModule.NAME -> ShutterTriggerModule(reactContext)
+            PhotoBoothModule.NAME -> PhotoBoothModule(reactContext)
             else -> null
         }
 
@@ -26,6 +33,24 @@ class PhotoboxNativePackage : TurboReactPackage() {
                 CanonUsbModule.NAME to ReactModuleInfo(
                     CanonUsbModule.NAME,
                     CanonUsbModule.NAME,
+                    false,
+                    false,
+                    false,
+                    false,
+                    isTurboModule,
+                ),
+                ShutterTriggerModule.NAME to ReactModuleInfo(
+                    ShutterTriggerModule.NAME,
+                    ShutterTriggerModule.NAME,
+                    false,
+                    false,
+                    false,
+                    false,
+                    isTurboModule,
+                ),
+                PhotoBoothModule.NAME to ReactModuleInfo(
+                    PhotoBoothModule.NAME,
+                    PhotoBoothModule.NAME,
                     false,
                     false,
                     false,

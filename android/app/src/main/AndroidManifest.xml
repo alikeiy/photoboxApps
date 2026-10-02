@@ -4,8 +4,22 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
-  <!-- Legacy storage — replace with READ_MEDIA_IMAGES when implementing gallery save -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
+    <!-- Read JPEGs saved by Canon Camera Connect. API 33+ uses READ_MEDIA_IMAGES. -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <!-- Shutter pin over Canon Camera Connect. Granted from system settings, not a runtime dialog. -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <!--
+        BIND_ACCESSIBILITY_SERVICE is not requested here. It is a signature permission
+        the system holds when it binds to ShutterAccessibilityService. Declaring it as
+        uses-permission does not enable the service and can confuse the grant flow.
+    -->
 
     <!-- USB permission is granted at runtime via UsbManager.requestPermission() -->
     <uses-feature
@@ -25,11 +39,21 @@
         android:theme="@style/AppTheme"
         android:supportsRtl="true">
 
+        <!--
+            Target SDK 36 ignores screenOrientation on sw600dp tablets unless this
+            opt-out is set. It locks this app's activity; it does not freeze rotation
+            inside Canon Camera Connect. The operator still uses the system rotation lock.
+        -->
+        <property
+            android:name="android.window.PROPERTY_COMPAT_ALLOW_RESTRICTED_RESIZABILITY"
+            android:value="true" />
+
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
             android:launchMode="singleTop"
+            android:screenOrientation="sensorLandscape"
             android:windowSoftInputMode="adjustResize"
             android:exported="true">
 
@@ -47,5 +71,27 @@
                 android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
                 android:resource="@xml/device_filter" />
         </activity>
+
+        <service
+            android:name=".trigger.ShutterTriggerService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse"
+            android:stopWithTask="false">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="Photobooth shutter pin kept visible over Canon Camera Connect while a hardware button triggers a tap." />
+        </service>
+
+        <service
+            android:name=".trigger.ShutterAccessibilityService"
+            android:exported="true"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/shutter_accessibility_service" />
+        </service>
     </application>
 </manifest>

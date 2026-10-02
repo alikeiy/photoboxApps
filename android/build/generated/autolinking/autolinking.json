@@ -621,7 +621,9 @@
     "ios": {},
     "android": {}
   },
-  "assets": [],
+  "assets": [
+    "./assets/fonts"
+  ],
   "project": {
     "ios": {
       "sourceDir": "/Users/alikapermatasari/Documents/myapps/photoboxApps/ios",

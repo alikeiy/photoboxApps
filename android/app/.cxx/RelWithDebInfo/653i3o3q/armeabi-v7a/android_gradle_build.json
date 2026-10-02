@@ -31,9 +31,9 @@
       "runtimeFiles": [
         "/Users/alikapermatasari/Documents/myapps/photoboxApps/android/app/build/intermediates/cxx/RelWithDebInfo/653i3o3q/obj/armeabi-v7a/libreact_codegen_safeareacontext.so",
         "/Users/alikapermatasari/Documents/myapps/photoboxApps/android/app/build/intermediates/cxx/RelWithDebInfo/653i3o3q/obj/armeabi-v7a/libreact_codegen_rnscreens.so",
-        "/private/var/folders/xv/j56l4qrj6fvd59fqp82nkj5w0000gn/T/cursor-sandbox-cache/d55fe7474559b7c1e974602ebf17264f/gradle/caches/8.14.3/transforms/5177f883cfc04d7a3c97e530870da5d8/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so",
-        "/private/var/folders/xv/j56l4qrj6fvd59fqp82nkj5w0000gn/T/cursor-sandbox-cache/d55fe7474559b7c1e974602ebf17264f/gradle/caches/8.14.3/transforms/6e6f07ea71e2ad1e3794b7d024435d07/transformed/jetified-react-android-0.81.0-release/prefab/modules/jsi/libs/android.armeabi-v7a/libjsi.so",
-        "/private/var/folders/xv/j56l4qrj6fvd59fqp82nkj5w0000gn/T/cursor-sandbox-cache/d55fe7474559b7c1e974602ebf17264f/gradle/caches/8.14.3/transforms/6e6f07ea71e2ad1e3794b7d024435d07/transformed/jetified-react-android-0.81.0-release/prefab/modules/reactnative/libs/android.armeabi-v7a/libreactnative.so"
+        "/private/var/folders/xv/j56l4qrj6fvd59fqp82nkj5w0000gn/T/cursor-sandbox-cache/cf30ea8c410a741f9c8b087011ecfd71/gradle/caches/8.14.3/transforms/5177f883cfc04d7a3c97e530870da5d8/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so",
+        "/private/var/folders/xv/j56l4qrj6fvd59fqp82nkj5w0000gn/T/cursor-sandbox-cache/cf30ea8c410a741f9c8b087011ecfd71/gradle/caches/8.14.3/transforms/6e6f07ea71e2ad1e3794b7d024435d07/transformed/jetified-react-android-0.81.0-release/prefab/modules/jsi/libs/android.armeabi-v7a/libjsi.so",
+        "/private/var/folders/xv/j56l4qrj6fvd59fqp82nkj5w0000gn/T/cursor-sandbox-cache/cf30ea8c410a741f9c8b087011ecfd71/gradle/caches/8.14.3/transforms/6e6f07ea71e2ad1e3794b7d024435d07/transformed/jetified-react-android-0.81.0-release/prefab/modules/reactnative/libs/android.armeabi-v7a/libreactnative.so"
       ]
     },
     "react_codegen_PhotoboxSpecs::@d7e081e776fcf37281b1": {
@@ -62,9 +62,9 @@
       "artifactName": "react_codegen_rnscreens",
       "output": "/Users/alikapermatasari/Documents/myapps/photoboxApps/android/app/build/intermediates/cxx/RelWithDebInfo/653i3o3q/obj/armeabi-v7a/libreact_codegen_rnscreens.so",
       "runtimeFiles": [
-        "/private/var/folders/xv/j56l4qrj6fvd59fqp82nkj5w0000gn/T/cursor-sandbox-cache/d55fe7474559b7c1e974602ebf17264f/gradle/caches/8.14.3/transforms/6e6f07ea71e2ad1e3794b7d024435d07/transformed/jetified-react-android-0.81.0-release/prefab/modules/reactnative/libs/android.armeabi-v7a/libreactnative.so",
-        "/private/var/folders/xv/j56l4qrj6fvd59fqp82nkj5w0000gn/T/cursor-sandbox-cache/d55fe7474559b7c1e974602ebf17264f/gradle/caches/8.14.3/transforms/6e6f07ea71e2ad1e3794b7d024435d07/transformed/jetified-react-android-0.81.0-release/prefab/modules/jsi/libs/android.armeabi-v7a/libjsi.so",
-        "/private/var/folders/xv/j56l4qrj6fvd59fqp82nkj5w0000gn/T/cursor-sandbox-cache/d55fe7474559b7c1e974602ebf17264f/gradle/caches/8.14.3/transforms/5177f883cfc04d7a3c97e530870da5d8/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
+        "/private/var/folders/xv/j56l4qrj6fvd59fqp82nkj5w0000gn/T/cursor-sandbox-cache/cf30ea8c410a741f9c8b087011ecfd71/gradle/caches/8.14.3/transforms/6e6f07ea71e2ad1e3794b7d024435d07/transformed/jetified-react-android-0.81.0-release/prefab/modules/reactnative/libs/android.armeabi-v7a/libreactnative.so",
+        "/private/var/folders/xv/j56l4qrj6fvd59fqp82nkj5w0000gn/T/cursor-sandbox-cache/cf30ea8c410a741f9c8b087011ecfd71/gradle/caches/8.14.3/transforms/6e6f07ea71e2ad1e3794b7d024435d07/transformed/jetified-react-android-0.81.0-release/prefab/modules/jsi/libs/android.armeabi-v7a/libjsi.so",
+        "/private/var/folders/xv/j56l4qrj6fvd59fqp82nkj5w0000gn/T/cursor-sandbox-cache/cf30ea8c410a741f9c8b087011ecfd71/gradle/caches/8.14.3/transforms/5177f883cfc04d7a3c97e530870da5d8/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so"
       ]
     },
     "react_codegen_safeareacontext::@7984cd80db47aa7b952a": {
@@ -73,9 +73,9 @@
       "artifactName": "react_codegen_safeareacontext",
       "output": "/Users/alikapermatasari/Documents/myapps/photoboxApps/android/app/build/intermediates/cxx/RelWithDebInfo/653i3o3q/obj/armeabi-v7a/libreact_codegen_safeareacontext.so",
       "runtimeFiles": [
-        "/private/var/folders/xv/j56l4qrj6fvd59fqp82nkj5w0000gn/T/cursor-sandbox-cache/d55fe7474559b7c1e974602ebf17264f/gradle/caches/8.14.3/transforms/5177f883cfc04d7a3c97e530870da5d8/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so",
-        "/private/var/folders/xv/j56l4qrj6fvd59fqp82nkj5w0000gn/T/cursor-sandbox-cache/d55fe7474559b7c1e974602ebf17264f/gradle/caches/8.14.3/transforms/6e6f07ea71e2ad1e3794b7d024435d07/transformed/jetified-react-android-0.81.0-release/prefab/modules/jsi/libs/android.armeabi-v7a/libjsi.so",
-        "/private/var/folders/xv/j56l4qrj6fvd59fqp82nkj5w0000gn/T/cursor-sandbox-cache/d55fe7474559b7c1e974602ebf17264f/gradle/caches/8.14.3/transforms/6e6f07ea71e2ad1e3794b7d024435d07/transformed/jetified-react-android-0.81.0-release/prefab/modules/reactnative/libs/android.armeabi-v7a/libreactnative.so"
+        "/private/var/folders/xv/j56l4qrj6fvd59fqp82nkj5w0000gn/T/cursor-sandbox-cache/cf30ea8c410a741f9c8b087011ecfd71/gradle/caches/8.14.3/transforms/5177f883cfc04d7a3c97e530870da5d8/transformed/jetified-fbjni-0.7.0/prefab/modules/fbjni/libs/android.armeabi-v7a/libfbjni.so",
+        "/private/var/folders/xv/j56l4qrj6fvd59fqp82nkj5w0000gn/T/cursor-sandbox-cache/cf30ea8c410a741f9c8b087011ecfd71/gradle/caches/8.14.3/transforms/6e6f07ea71e2ad1e3794b7d024435d07/transformed/jetified-react-android-0.81.0-release/prefab/modules/jsi/libs/android.armeabi-v7a/libjsi.so",
+        "/private/var/folders/xv/j56l4qrj6fvd59fqp82nkj5w0000gn/T/cursor-sandbox-cache/cf30ea8c410a741f9c8b087011ecfd71/gradle/caches/8.14.3/transforms/6e6f07ea71e2ad1e3794b7d024435d07/transformed/jetified-react-android-0.81.0-release/prefab/modules/reactnative/libs/android.armeabi-v7a/libreactnative.so"
       ]
     }
   },

@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">photoboxTemp</string>
+    <string name="shutter_accessibility_description">Photobox mengetuk layar pada posisi pin yang Anda taruh saat tombol volume atau remote ditekan. Dipakai untuk menekan tombol shutter di Canon Camera Connect. Layanan ini tidak membaca isi layar.</string>
+    <string name="shutter_channel_name">Pemicu shutter</string>
+    <string name="shutter_channel_desc">Menjaga pin shutter tetap hidup saat Canon Camera Connect di depan.</string>
+    <string name="shutter_notif_title">Photobox shutter</string>
+    <string name="shutter_notif_need_accessibility">Aktifkan layanan aksesibilitas Photobox agar tombol volume bisa mengetuk shutter.</string>
+    <string name="shutter_notif_need_landscape">Putar tablet ke landscape dan kunci rotasi sistem, lalu geser pin ke tombol shutter.</string>
+    <string name="shutter_notif_stale">Layar berubah. Geser pin lagi supaya ketukan tidak meleset dari tombol shutter.</string>
+    <string name="shutter_notif_place_pin">Geser gagang GESER ke tombol shutter. Tahan gagang untuk mengunci.</string>
+    <string name="shutter_notif_armed">Siap. Volume atau remote mengetuk titik tengah pin.</string>
+    <string name="shutter_action_stop">Berhenti</string>
+    <string name="shutter_action_lock">Kunci pin</string>
+    <string name="shutter_action_unlock">Buka kunci</string>
+    <string name="booth_photo_title">Foto photobooth</string>
+    <string name="booth_photo_ready">Foto Canon masuk. Pilih frame.</string>
+    <string name="booth_need_photo_permission">Izinkan akses semua foto supaya foto Canon bisa dibaca.</string>
 </resources>
